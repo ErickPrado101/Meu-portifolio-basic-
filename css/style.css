@@ -411,3 +411,57 @@ a:focus {
   padding: 30px 0;
   color: #fff;
 }
+/* Estilos para dispositivos móveis (largura máxima de 600px) */
+@media only screen and (max-width: 600px) {
+  #header {
+    height: 60px;
+  }
+
+  #hero {
+    height: 80vh;
+  }
+
+  .nav-menu {
+    display: none; 
+  }
+
+  #nav-menu-container {
+    justify-content: center; 
+  }
+
+  .nav-menu a {
+    padding: 8px 12px; 
+  }
+
+  #about .about-img {
+    text-align: center; 
+  }
+
+  #about .about-title {
+    font-size: 24px;
+  }
+
+  #services .service-icon {
+    padding: 12px; 
+  }
+
+  #services .service-title {
+    margin-left: 0; 
+  }
+
+  #subscribe .subscribe-title {
+    font-size: 24px; 
+  }
+
+  #portfolio .portfolio-item {
+    height: auto; 
+  }
+
+  #testimonials .quote {
+    padding: 30px; 
+  }
+
+  #footer {
+    padding: 20px 0; 
+  }
+}
