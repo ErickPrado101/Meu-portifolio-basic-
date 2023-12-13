@@ -5,6 +5,7 @@ body {
   background: #fff;
   color: #666;
   font-family: "Open Sans", sans-serif; 
+  overflow-x: hidden;
 }
 
 a {
